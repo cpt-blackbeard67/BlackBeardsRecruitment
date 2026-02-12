@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-shape-divider-bottom-1770445659 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1770445659 svg {
+    position: relative;
+    display: block;
+    width: calc(197% + 1.3px);
+    height: 76px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1770445659 .shape-fill {
+    fill: #193036;
+}
+
+body.home {
+  background: #2e2c2a;
+}
+
+body.valentine {
+  background: #FF99A1;
+}
+

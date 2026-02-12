@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body.valentine {
+  background: #FF99A1;
+}
+
+body.home {
+  background: #2e2c2a;
+}
