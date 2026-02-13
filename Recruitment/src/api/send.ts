@@ -9,9 +9,8 @@ export default async function handler(
   req: VercelRequest,
   res: VercelResponse
 ) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method not allowed" });
-  }
+  console.log("METHOD:", req.method);
+
 
   try {
     const { message1, message2 } = req.body as Body;
