@@ -6,6 +6,7 @@ import Valentine from './pages/valentine'
 export default function App() {
   return (
     <Routes>
+      <Route path="/api/*" element={null} />
       <Route path="/" element={<Home />} />
       <Route path="/valentine" element={<Valentine />} />
     </Routes>
